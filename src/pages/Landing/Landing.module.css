@@ -1,0 +1,29 @@
+/* The use of .module.css in file names typically indicates that the CSS file is being used as a module in a modular CSS approach. */
+/* This approach is commonly associated with technologies like React and allows for local scoping of styles, preventing global style conflicts. */
+/* When you use a file named Landing.module.css, it suggests that the styles defined in that file are scoped to the component or module named "Landing." */
+
+.landing__wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+.landing__text{
+    width: 40%;
+    margin-top: 200px;
+}
+
+.landing__text h1{
+    font-size: 4rem;
+}
+
+.landing__img{
+    width: 50%;
+    margin-left: 2rem;
+   
+}
+
+.landing__img img{
+    width: 100%;
+}
